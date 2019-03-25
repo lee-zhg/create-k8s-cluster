@@ -1,8 +1,8 @@
 # Getting Started with Machine Learning for the Developer
+### _Industralizing Data Science and Machine Learning_
 
-*Industralizing Data Science and Machine Learning*
 Machine Learning, and Data Science have been hot topics for the past 10 years, but what does it mean to the *developer*? 
-- What where does one get started?
+- Where does one get started?
 - How do you transform data into insights?
 - What does a Machine Learning model look like?
 - How do you share the insights of a model with the world?
@@ -20,7 +20,8 @@ Over the course of the next several hours you will work through 3 open source ex
 - Understand and have example code for training a Supervised Machine Learning Models with SKlearn, Keras, and Tensorflow
 - Ability to save trained Machine Learning Models; with example code.
 - Understand tools for deploying Machine Learning Models as a Service with an API frontend, through UI, and/or Python SDKs; with example code.
-- Basic understanding of Deep Learning, where it's applied, 
+- Basic understanding of Deep Learning, where it's applied, where to find pretrained models, and how to build and deploy a Deep Learning model; with example code
+- Links to relevant developer resources 
 
 ## Requirements
 * [IBM Cloud Account]()
@@ -43,15 +44,16 @@ You’re a busy developer, a data scientist or a user with not much coding exper
 - Host the model on IBM Cloud for consumption and use
 - Integrate the model with your web application
 
-Along the way, you’ll learn about IBM’s Watson Machine Learning Service for hosting your trained model on IBM’s Cloud, and IBM Watson Studio, a Cloud-based IDE for data science teams; tools that brings together many open-source technologies built for data science and machine learning.
+Along the way, you’ll learn about IBM Cloud and scaling compute and memory based on training requirements, IBM’s Watson Machine Learning Service for hosting your trained model on IBM’s Cloud, and IBM Watson Studio, a Cloud-based IDE for data science teams; tools that brings together many open-source technologies built for data science and machine learning.
 
 
-*By the end of this Module you should be able to:*
+*By the end of this lab you should be able to:*
 
 - Visualize and clean data
 - Build a predictive model within a Jupyter Notebook
 - Deploy the model to IBM Watson Machine Learning service
-- Access the machine learning model through either APIs or a Node.js app
+- Access the machine learning models through through APIs
+
 
 ### Get Started
 ### [Part 1](https://developer.ibm.com/patterns/create-and-deploy-a-scoring-model-to-predict-heartrate-failure/)
@@ -64,7 +66,17 @@ Along the way, you’ll learn about IBM’s Watson Machine Learning Service for 
 
 ## Lab 2
 ### _Training and deploying a deep learning models to make predictions as a webservice_
-You're familiar with data science and Machine Learning, have built models before, but trying to understand how to make sense of a large feature space.  Deep learning with hyperparameter optimiation is 
+You're familiar with data science and Machine Learning, have built models before, but trying to understand how to make sense of a large feature space.  Deep learning with hyperparameter optimiation is an effective method for identifying and weighting the most important features across a timeseries dataset without the need to manually pick features.
+
+This lab begins by introducing you to deep learning through a Juypter notebook environment using the Keras framework. The lab builds on the Juypter Notebook enviornment by defining and submitting experiments for training multiple models in parellel.
+
+*By the end of these labs you should be able to:*
+
+- Build a deep learning model in a Juypter Notebook using Keras on Timeseries data
+- Deploy the trained deep learning model as an API on the Watson Machine Learning Service
+- Create and submit deep learning experiments in parellel for hyperparameter optimization
+- Compare deep learning training runs for accuracy 
+
 
 ### Get Started
 ### [Part 1](https://github.com/justinmccoy/timeseries-rnn-lab-part1) - Train a Recurrent Neural Network, and deploy the model as an API
@@ -74,6 +86,18 @@ You're familiar with data science and Machine Learning, have built models before
 ## Lab 3
 ### _Package a Deep learning model into a container, and deploy it to Kubernetes, or run offline_
 You want to learn how to package a deep learning model, consume it from an application, run it offline as a API endpoint, or deploy the model to Kubernetes.
+
+
+*By the end of these labs you should be able to:*
+
+- Find existing Deep Learning and Machine Learning models to solve common problem spaces
+- Deploy packaged Deep Learning models to a Kubernetes Service
+- Wrap a existing Deep Learning or Machine Learning Model as a web API
+- Package a trained Deep Learning or Machine Learning model in a container
+
+- Deploy the trained De
+
+
 ### Get Started
 ### [Part 1]() - Package and Deploy a Deep Learning Model in a Container on Kubernetes
 ### [Part 2]() - Consume the Deep Learning Model with a NodeJS application 
