@@ -37,8 +37,7 @@ Over the course of the next several hours you will work through 3 open source ex
 
 # Introduction
 Overview of the Machine Learning and Deep Learning landscape
-### [Presentation]() - _Introduction to Machine Learning and Data Science for the Developer_
-
+### [Presentation - _Introduction to Machine Learning and Data Science for the Developer_]()
 # Labs
 - [Lab 1](#Lab-1) - _Turn raw data into insights; build, deploy, and consume a Machine Learning Model_
 - [Lab 2](#Lab-2) - _Training and deploying Deep Learning models to make predictions as an API web service_
@@ -73,9 +72,9 @@ Along the way, you’ll learn about scaling compute and memory on IBM Cloud base
 
 
 ### Get Started
-_Here we have two options for exploring data, transforming data, training a model, hosting the model as an API web service, and consuming the API. **Part 1A** uses the Automatic Model Building tool in Watson Studio, and allows you to quickly train a supervised Machine Learning model, and evaluate its accuracy without having to write any code, this is an excellent way to prototype.  **Part 1B** does the same as Part1A, you explore data, transform data, train and evaluate a Machine Learning model, and host the model as an API web service before consuming the service, all using Python in a Jupyter Notebook. 
+Here we have two options for exploring data, transforming data, training a model, hosting the model as an API web service, and consuming the API. **Part 1A** uses the Automatic Model Building tool in Watson Studio, and allows you to quickly train a supervised Machine Learning model, and evaluate its accuracy without having to write any code, this is an excellent way to prototype.  **Part 1B** does the same as Part1A, you explore data, transform data, train and evaluate a Machine Learning model, and host the model as an API web service before consuming the service, all using Python in a Jupyter Notebook. 
 
-**Choose One**_
+**Choose One**
 
 ### [Part 1A - Automatic Model Builder](https://github.com/justinmccoy/lab-watson-automatic-model-builder)
 ### [Part 1B - Jupyter Notebooks](https://developer.ibm.com/patterns/create-and-deploy-a-scoring-model-to-predict-heartrate-failure/)
@@ -84,7 +83,7 @@ _Here we have two options for exploring data, transforming data, training a mode
 **Related Links**
 - [Principle Component Analysis Example](https://developer.ibm.com/patterns/deep-dive-into-pca-principal-component-analysis/)
 - [Perform Feature Engineering and Model Scoring on Watson Studio Local](https://developer.ibm.com/patterns/model-mgmt-on-watson-studio-local/)
-- 
+- Build a customer churn predictor](https://developer.ibm.com/patterns/predict-customer-churn-using-watson-studio-and-jupyter-notebooks/)
 
 ## Lab 2
 ### _Training and deploying Deep Learning models to make predictions as an API web service_
