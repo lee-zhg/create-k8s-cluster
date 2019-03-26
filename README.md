@@ -40,7 +40,7 @@ Over the course of the next several hours you will work through 3 open source ex
 - [Lab 3](#Lab-3) - _Package a Deep learning model into a container, and deploy it to Kubernetes, or run offline_
 
 ## Lab 1
-### _Turn raw data into insights; build, deploy, and consume a Machine Learning Model_
+### _Turn raw data into insights; build, deploy, and consume a Machine Learning model_
 
 You’re a busy developer, a data scientist or a user with not much coding experience, and want the fastest path delivering data insights to users, but this requires deep expertise in many technology domains. This end-to-end use-case driven skill walks you through the technologies used to:
 
@@ -58,13 +58,14 @@ Along the way, you’ll learn about IBM Cloud and scaling compute and memory bas
 - Visualize and clean data
 - Build a predictive model within a Jupyter Notebook
 - Deploy the model to IBM Watson Machine Learning service
-- Access the machine learning models through through APIs
+- Access the Machine Learning models through through APIs
 
 **Tools Used**
 - Jupyter Notebooks _[(docs)](https://jupyter-notebook.readthedocs.io/en/stable/)_
 - Watson Machine Learning _[(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-overview.html)_
 - Watson Studio _[(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/welcome-main.html?audience=wdp)_
-- SKLearn
+- scikit-learn [(docs)](https://scikit-learn.org/stable/)
+
 
 ### Get Started
 _Here we have two options for exploring data, transforming data, training a model, hosting the model and an API web service, and consuming the API. **Part 1A** uses the Automatic Model Building tool in Watson Studio, and allows you to quickly train a supervised Machine Learning model, and evaluate its accuracy without having to write any code, this is an excellent way to prototype.  **Part 1B** does the same as Part1A, you explore data, transform data, train and evaluate a Machine Learning model, and host the model as an API web service before consuming the service all using Python in a Jupyter Notebook. **Choose One**_
