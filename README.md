@@ -12,7 +12,7 @@ Over the course of the next several hours you will work through 3 open source ex
 
 ## Target Audience
 - Developers interested in Machine Learning with little or no practical experience with the topic
-- Developers that want to have complete code examples to showcase understanding of Machine Learning, and how to integerate insights into applications.
+- Developers that want to have complete code examples to showcase understanding of Machine Learning, and how to integrate insights into applications.
 - Developers that are too busy and need to use and apply best practices around Machine Learning today.
 
 ## Outcomes
