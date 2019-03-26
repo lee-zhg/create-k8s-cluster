@@ -27,6 +27,9 @@ Over the course of the next several hours you will work through 3 open source ex
 * [IBM Cloud Account]()
 * [Watson Studio Environment]()
 
+## Links 
+* [Watson Machine Learning Python SDK](https://wml-api-pyclient.mybluemix.net/)
+*
 
 ## Estimated Time to Complete 
 **3 Hours**
@@ -47,40 +50,52 @@ You’re a busy developer, a data scientist or a user with not much coding exper
 Along the way, you’ll learn about IBM Cloud and scaling compute and memory based on training requirements, IBM’s Watson Machine Learning Service for hosting your trained model on IBM’s Cloud, and IBM Watson Studio, a Cloud-based IDE for data science teams; tools that brings together many open-source technologies built for data science and machine learning.
 
 
-*By the end of this lab you should be able to:*
+**By the end of this lab you should be able to:**
 
 - Visualize and clean data
 - Build a predictive model within a Jupyter Notebook
 - Deploy the model to IBM Watson Machine Learning service
 - Access the machine learning models through through APIs
 
+**Tools Used**
+- Jupyter Notebooks _[(docs)](https://jupyter-notebook.readthedocs.io/en/stable/)_
+- Watson Machine Learning _[(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-overview.html)_
+- Watson Studio _[(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/welcome-main.html?audience=wdp)_
+- SKLearn
 
 ### Get Started
-### [Part 1](https://developer.ibm.com/patterns/create-and-deploy-a-scoring-model-to-predict-heartrate-failure/)
+_Here we have two options for exploring data, transforming data, training a model, hosting the model and an API web service, and consuming the API. **Part 1A** uses the Automatic Model Building tool in Watson Studio, and allows you to quickly train a supervised Machine Learning model, and evaluate its accuracy without having to write any code, this is an excellent way to prototype.  **Part 1B** does the same as Part1A, you explore data, transform data, train and evaluate a Machine Learning model, and host the model as an API web service before consuming the service all using Python in a Jupyter Notebook. **Choose One**_
+
+### [Part 1A - Automatic Model Builder](https://github.com/justinmccoy/predictive-model-on-watson-ml)
+### [Part 1B - Jupyter Notebooks](https://developer.ibm.com/patterns/create-and-deploy-a-scoring-model-to-predict-heartrate-failure/)
 
 
 **Related Links**
 - [Principle Component Analysis Example](https://developer.ibm.com/patterns/deep-dive-into-pca-principal-component-analysis/)
-- [Preform Feature Engineering and Model Scoring on Watson Studio](https://developer.ibm.com/patterns/model-mgmt-on-watson-studio-local/)
+- [Perform Feature Engineering and Model Scoring on Watson Studio Local](https://developer.ibm.com/patterns/model-mgmt-on-watson-studio-local/)
 - 
 
 ## Lab 2
-### _Training and deploying a deep learning models to make predictions as a webservice_
-You're familiar with data science and Machine Learning, have built models before, but trying to understand how to make sense of a large feature space.  Deep learning with hyperparameter optimiation is an effective method for identifying and weighting the most important features across a timeseries dataset without the need to manually pick features.
+### _Training and deploying deep learning models to make predictions as a webservice_
+You're familiar with data science and Machine Learning, have built models before, but are trying to understand how to make sense of a large feature space. Deep learning with hyperparameter optimiation is an effective method for identifying and weighting the most important features without the need to manually pick those features.
 
-This lab begins by introducing you to deep learning through a Juypter notebook environment using the Keras framework. The lab builds on the Juypter Notebook enviornment by defining and submitting experiments for training multiple models in parellel.
+This lab begins by introducing you to Deep Learning through a Jupyter notebook environment using the Keras framework. The lab in **Part 2** builds on the Jupyter Notebook enviornment by defining and submitting experiments as Python code for training multiple models in parellel.
 
-*By the end of these labs you should be able to:*
+**By the end of these labs you should be able to:**
 
-- Build a deep learning model in a Juypter Notebook using Keras on Timeseries data
-- Deploy the trained deep learning model as an API on the Watson Machine Learning Service
-- Create and submit deep learning experiments in parellel for hyperparameter optimization
-- Compare deep learning training runs for accuracy 
+- Build a Deep Learning model in a Jupyter Notebook using Keras on timeseries data
+- Deploy and consume the trained Deep Learning model as an API on the Watson Machine Learning Service
+- Create and submit Deep Learning experiments in parellel for hyperparameter optimization
+- Compare Deep Learning training runs for accuracy 
 
 
 ### Get Started
-### [Part 1](https://github.com/justinmccoy/timeseries-rnn-lab-part1) - Train a Recurrent Neural Network, and deploy the model as an API
-### [Part 2](https://github.com/justinmccoy/timeseries-rnn-lab-part2) - Preform Hyperparameter Optimization on a Recurrent Neural Network
+### [Part 1](https://github.com/justinmccoy/timeseries-rnn-lab-part1) - Train a Recurrent Neural Network on a Jupyter Notebook in Python using Keras
+### [Part 2](https://github.com/justinmccoy/timeseries-rnn-lab-part2) - Perform Hyperparameter Optimization; train and host a Deep Learning model as a API web service
+
+**Related Links**
+-
+-
 
 
 ## Lab 3
