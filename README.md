@@ -35,6 +35,9 @@ Over the course of the next several hours you will work through 3 open source ex
 **3 Hours**
 
 # Labs
+- [Lab 1](#Lab-1) - _Turn raw data into insights; build, deploy, and consume a Machine Learning Model_
+- [Lab 2](#Lab-2) - _Training and deploying Deep Learning models to make predictions as an API web service_
+- [Lab 3](#Lab-3) - _Package a Deep learning model into a container, and deploy it to Kubernetes, or run offline_
 
 ## Lab 1
 ### _Turn raw data into insights; build, deploy, and consume a Machine Learning Model_
@@ -76,7 +79,7 @@ _Here we have two options for exploring data, transforming data, training a mode
 - 
 
 ## Lab 2
-### _Training and deploying deep learning models to make predictions as a webservice_
+### _Training and deploying Deep Learning models to make predictions as an API web service_
 You're familiar with data science and Machine Learning, have built models before, but are trying to understand how to make sense of a large feature space. Deep learning with hyperparameter optimiation is an effective method for identifying and weighting the most important features without the need to manually pick those features.
 
 This lab begins by introducing you to Deep Learning through a Jupyter notebook environment using the Keras framework. The lab in **Part 2** builds on the Jupyter Notebook enviornment by defining and submitting experiments as Python code for training multiple models in parellel.
