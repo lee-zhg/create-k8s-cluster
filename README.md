@@ -33,7 +33,11 @@ Over the course of the next several hours you will work through 3 open source ex
 - [Watson Studio VideLearning Center](https://www.youtube.com/playlist?list=PLzpeuWUENMK3u3j_hffhNZX3-Jkht3N6V)
 
 ## Estimated Time to Complete 
-**3 Hours**
+**4 Hours**
+
+# Introduction
+Overview of the Machine Learning and Deep Learning landscape
+### [Presentation]()
 
 # Labs
 - [Lab 1](#Lab-1) - _Turn raw data into insights; build, deploy, and consume a Machine Learning Model_
@@ -43,15 +47,15 @@ Over the course of the next several hours you will work through 3 open source ex
 ## Lab 1
 ### _Turn raw data into insights; build, deploy, and consume a Machine Learning model_
 
-You’re a busy developer, a data scientist or a user with not much coding experience, and want the fastest path delivering data insights to users, but this requires deep expertise in many technology domains. This end-to-end use-case driven skill walks you through the technologies used to:
+You’re a busy developer, a data scientist or a user with not much coding experience, and want the fastest path delivering data insights to users, but this requires deep expertise in many technology domains. This end-to-end use-case driven lab walks you through the technologies used to:
 
 - Acquire, clean, and explore data
 - Build a predictive machine learning model
 - Make predictions
-- Host the model on IBM Cloud for consumption and use
+- Host the model on IBM Cloud for consumption
 - Integrate the model with your web application
 
-Along the way, you’ll learn about IBM Cloud and scaling compute and memory based on training requirements, IBM’s Watson Machine Learning Service for hosting your trained model on IBM’s Cloud, and IBM Watson Studio, a Cloud-based IDE for data science teams; tools that brings together many open-source technologies built for data science and machine learning.
+Along the way, you’ll learn about scaling compute and memory on IBM Cloud based on training requirements, IBM’s Watson Machine Learning Service for hosting your trained model on IBM’s Cloud, and Watson Studio, a Cloud-based IDE for data science teams; tools that brings together many open-source technologies built for data science and machine learning.
 
 
 **By the end of this lab you should be able to:**
@@ -69,7 +73,9 @@ Along the way, you’ll learn about IBM Cloud and scaling compute and memory bas
 
 
 ### Get Started
-_Here we have two options for exploring data, transforming data, training a model, hosting the model and an API web service, and consuming the API. **Part 1A** uses the Automatic Model Building tool in Watson Studio, and allows you to quickly train a supervised Machine Learning model, and evaluate its accuracy without having to write any code, this is an excellent way to prototype.  **Part 1B** does the same as Part1A, you explore data, transform data, train and evaluate a Machine Learning model, and host the model as an API web service before consuming the service all using Python in a Jupyter Notebook. **Choose One**_
+_Here we have two options for exploring data, transforming data, training a model, hosting the model as an API web service, and consuming the API. **Part 1A** uses the Automatic Model Building tool in Watson Studio, and allows you to quickly train a supervised Machine Learning model, and evaluate its accuracy without having to write any code, this is an excellent way to prototype.  **Part 1B** does the same as Part1A, you explore data, transform data, train and evaluate a Machine Learning model, and host the model as an API web service before consuming the service, all using Python in a Jupyter Notebook. 
+
+**Choose One**_
 
 ### [Part 1A - Automatic Model Builder](https://github.com/justinmccoy/predictive-model-on-watson-ml)
 ### [Part 1B - Jupyter Notebooks](https://developer.ibm.com/patterns/create-and-deploy-a-scoring-model-to-predict-heartrate-failure/)
