@@ -30,7 +30,7 @@ Over the course of the next several hours you will work through 3 open source ex
 ## Links 
 * [Watson Machine Learning Python SDK](https://wml-api-pyclient.mybluemix.net/)
 * [Watson Studio Overview](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/overview-ws.html?audience=wdp&context=wdp&linkInPage=true)
-- [Watson Studio Video Learning Center](https://www.youtube.com/playlist?list=PLzpeuWUENMK3u3j_hffhNZX3-Jkht3N6V)
+* [Watson Studio Video Learning Center](https://www.youtube.com/playlist?list=PLzpeuWUENMK3u3j_hffhNZX3-Jkht3N6V)
 
 ## Estimated Time to Complete 
 **4 Hours**
@@ -83,7 +83,7 @@ Here we have two options for exploring data, transforming data, training a model
 **Related Links**
 - [Principle Component Analysis Example](https://developer.ibm.com/patterns/deep-dive-into-pca-principal-component-analysis/)
 - [Perform Feature Engineering and Model Scoring on Watson Studio Local](https://developer.ibm.com/patterns/model-mgmt-on-watson-studio-local/)
-- Build a customer churn predictor](https://developer.ibm.com/patterns/predict-customer-churn-using-watson-studio-and-jupyter-notebooks/)
+- [Build a customer churn predictor](https://developer.ibm.com/patterns/predict-customer-churn-using-watson-studio-and-jupyter-notebooks/)
 
 ## Lab 2
 ### _Training and deploying Deep Learning models to make predictions as an API web service_
