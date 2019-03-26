@@ -24,12 +24,13 @@ Over the course of the next several hours you will work through 3 open source ex
 - Links to relevant developer resources 
 
 ## Requirements
-* [IBM Cloud Account]()
-* [Watson Studio Environment]()
+* [IBM Cloud Account](https://cloud.ibm.com)
+* [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio)
 
 ## Links 
 * [Watson Machine Learning Python SDK](https://wml-api-pyclient.mybluemix.net/)
-*
+* [Watson Studio Overview](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/overview-ws.html?audience=wdp&context=wdp&linkInPage=true)
+- [Watson Studio VideLearning Center](https://www.youtube.com/playlist?list=PLzpeuWUENMK3u3j_hffhNZX3-Jkht3N6V)
 
 ## Estimated Time to Complete 
 **3 Hours**
