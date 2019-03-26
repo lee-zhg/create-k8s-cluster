@@ -77,7 +77,7 @@ _Here we have two options for exploring data, transforming data, training a mode
 
 **Choose One**_
 
-### [Part 1A - Automatic Model Builder](https://github.com/justinmccoy/predictive-model-on-watson-ml)
+### [Part 1A - Automatic Model Builder](https://github.com/justinmccoy/lab-watson-automatic-model-builder)
 ### [Part 1B - Jupyter Notebooks](https://developer.ibm.com/patterns/create-and-deploy-a-scoring-model-to-predict-heartrate-failure/)
 
 
