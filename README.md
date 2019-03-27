@@ -41,7 +41,7 @@ Over the course of the next several hours you will work through 3 open source ex
 
 # Presentation 
 Overview of the Machine Learning and Deep Learning landscape
-### [Introduction to Machine Learning and Data Science for the Developer]()
+### [Introduction to Machine Learning and Data Science for the Developer](docs/ml-workshop.pdf)
 
 # Labs
 - [Lab 0](#provision-kubernetes-cluster) - _Provision Kubernetes Cluster_
