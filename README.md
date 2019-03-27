@@ -179,7 +179,7 @@ We will create and deploy two different applications in Docker containers. The f
 This lab is broken down into two parts. **Part 1** focuses on packaging a Deep Learning model wrapped as a web service within a Docker container. This web service can be called by other applications through a REST API to extract insights from data. In this use-case we want to simplify the task of extracting objects from images utilizing _[image segmentation](https://en.wikipedia.org/wiki/Image_segmentation)_.  **Part 2** of the lab, deploys the application in Part 1, and a REACT web applcation that's used to consume the API on Kubernetes.
 
 ### [Part 1](https://github.com/justinmccoy/MAX-Image-Segmenter) - Package and Deploy a Deep Learning Model in a Container
-### [Part 2]() - Consume the Deep Learning Model with a REACT Web Application 
+### [Part 2](https://github.com/IBM/MAX-Image-Segmenter-Web-App) - Consume the Deep Learning Model with a REACT Web Application 
 
 
 **Related Links**
