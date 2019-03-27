@@ -40,7 +40,7 @@ Overview of the Machine Learning and Deep Learning landscape
 ### [Introduction to Machine Learning and Data Science for the Developer]()
 
 # Labs
-- [Lab 1](#Lab-1) - _Turn raw data into insights; build, deploy, and consume a Machine Learning Model_
+- [Lab 1](#Lab-1) - _Turn raw data into insights; build, deploy, and consume a Machine Learning model_
 - [Lab 2](#Lab-2) - _Training and deploying Deep Learning models to make predictions as an API web service_
 - [Lab 3](#Lab-3) - _Package a Deep learning model into a container, and deploy it to Kubernetes, or run offline_
 
