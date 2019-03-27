@@ -70,7 +70,9 @@ From within IBM Cloud select `Catalog` from the top menu bar, then find `Kuberne
 ![Create Kube Cluster](docs/images/create-kube-cluster.gif)
 
 
-The cluster will take about 15 mintues to provision, and we're not going to use it.  After selecting create you will see information for getting started with Kubernetes and a status of _Requested_, this will move to _Deploying_ and eventually _Deployed_.
+The cluster will take about 15 mintues to provision but we're not going to use it right away. 
+
+After selecting create you will see information for getting started with Kubernetes and a status of _Requested_, this will move to _Deploying_ and eventually _Normal_.
 
 ![Kube Cluster Createion Status](docs/images/kube-cluster-status.png)
 
@@ -142,17 +144,21 @@ This lab begins by introducing you to Deep Learning through a Jupyter notebook e
 
 **Get Started**
 
+This lab is broken into two parts, **Part 1** focus on training a Recurrent Neural Network on Time Series data in a Jupyter Notebook. The dataset used contains only a single feature, but could easily be modified to include hundreds of features or a completely different timeseries dataset. **Part 2** packages up the code seen in Part 1 as a Python application, and configuration file and submits it to Watson's Deep Learning Service to perform hyperparameter optimization, training many versions of the same model with slightly different variations in parallel.
+
 ### [Part 1](https://github.com/justinmccoy/timeseries-rnn-lab-part1) - Train a Recurrent Neural Network on a Jupyter Notebook in Python using Keras
 ### [Part 2](https://github.com/justinmccoy/timeseries-rnn-lab-part2) - Perform Hyperparameter Optimization; train and host a Deep Learning model as a API web service
 
 **Related Links**
-- [Link 1]()
-- [Link 2]()
+- [AI Research @IBM](https://www.research.ibm.com/artificial-intelligence/)
+- [Monitor Machine Learning Models with OpenScale](https://developer.ibm.com/patterns/monitor-custom-machine-learning-engine-with-ai-openscale/)
+- [Refine your Deep Learning Model](https://developer.ibm.com/articles/image-recognition-challenge-with-tensorflow-and-keras-pt2/)
 
 
 ## Lab 3
 ### _Package a Deep learning model into a container, and deploy it to Kubernetes, or run offline_
 You want to learn how to package a deep learning model, consume it from an application, run it offline as a API endpoint, or deploy the model to Kubernetes.
+
 
 
 *By the end of these labs you should be able to:*
