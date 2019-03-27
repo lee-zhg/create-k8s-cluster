@@ -28,8 +28,9 @@ Over the course of the next several hours you will work through 3 open source ex
 * [Kubernetes Cluster](#provision-kubernetes-cluster)
 
 ## Links 
-* [Watson Machine Learning Python SDK](https://wml-api-pyclient.mybluemix.net/)
+* [IBM Developer](https://developer.ibm.com)
 * [Watson Studio Overview](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/overview-ws.html?audience=wdp&context=wdp&linkInPage=true)
+* [Watson Machine Learning Python SDK](https://wml-api-pyclient.mybluemix.net/)
 * [Watson Studio Video Learning Center](https://www.youtube.com/playlist?list=PLzpeuWUENMK3u3j_hffhNZX3-Jkht3N6V)
 
 ## Estimated Time to Complete 
@@ -40,29 +41,41 @@ Overview of the Machine Learning and Deep Learning landscape
 ### [Introduction to Machine Learning and Data Science for the Developer]()
 
 # Labs
+- [Lab 0](#provision-kubernetes-cluster) - _Provision Kubernetes Cluster_
 - [Lab 1](#Lab-1) - _Turn raw data into insights; build, deploy, and consume a Machine Learning model_
 - [Lab 2](#Lab-2) - _Training and deploying Deep Learning models to make predictions as an API web service_
 - [Lab 3](#Lab-3) - _Package a Deep learning model into a container, and deploy it to Kubernetes, or run offline_
 
+
 ## Provision Kubernetes Cluster
-In [Lab3](#lab-3) you will be deploying an application to a Kubernetes cluster; this takes upto 20 minutes to provision and requires a promo code applied to your IBM Cloud account enabling you to create a cluster without entering any credit card information.  The promo code allows users to create a Free cluster with 2 CPUs, 4 GB RAM, and 1 Worker Node. 
+In **Lab3** you will be deploying an application to a Kubernetes cluster; this takes upto 20 minutes to provision and requires a promo code applied to your IBM Cloud account enabling you to create a cluster without entering any credit card information.  The promo code allows users to create a Free cluster with 2 CPUs, 4 GB RAM, and 1 Worker Node. 
 
 **1. Request Promo Code**
-[https://developer.ibm.com/callforcode/featurecode](https://developer.ibm.com/callforcode/featurecode)
 
-Confirmation Code: `CFCday19`
+**Goto:** [https://developer.ibm.com/callforcode/featurecode](https://developer.ibm.com/callforcode/featurecode)
 
-From within IBM Cloud, select `Manage` from the top menu bar, then `Account`.  Within the account page select the `Account Settings` option and scroll down to enter your feature code retrieved above.
+> Confirmation Code: `CFCday19`
+
+After requesting and saving the promo code from above, login to [IBM Cloud](https://cloud.ibm.com), select `Manage` from the top menu bar, then `Account`.  Within the account page select the `Account Settings` option and scroll down to enter your feature code retrieved above.
 
 ![Use Feature Code](docs/images/use-feature-code.gif)
 
 
 **2. Provision a new Kubernetes Cluster**
-Kubernetes is an open-source container orchestration platform for deploying and scaling distributed applications. We're going to deploy a API Web Service hosting a Deep Learning model, and a React Web App consuming the API.
+
+Kubernetes is an open-source container orchestration platform for deploying and scaling distributed applications. We're going to deploy an API Web Service hosting a Deep Learning model, and a React Web App consuming the API.
 
 From within IBM Cloud select `Catalog` from the top menu bar, then find `Kubernetes` highlighted at the top of the screen, select it and following the prompts to create a new Free Cluster.  
+
 ![Create Kube Cluster](docs/images/create-kube-cluster.gif)
 
+
+The cluster will take about 15 mintues to provision, and we're not going to use it.  After selecting create you will see information for getting started with Kubernetes and a status of _Requested_, this will move to _Deploying_ and eventually _Deployed_.
+
+![Kube Cluster Createion Status](docs/images/kube-cluster-status.png)
+
+### Continue onto [Lab 1](#lab-1)
+----
 
 ## Lab 1
 ### _Turn raw data into insights; build, deploy, and consume a Machine Learning model_
@@ -89,10 +102,12 @@ Along the way, you’ll learn about scaling compute and memory on IBM Cloud base
 - Jupyter Notebooks _[(docs)](https://jupyter-notebook.readthedocs.io/en/stable/)_
 - Watson Machine Learning _[(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-overview.html)_
 - Watson Studio _[(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/welcome-main.html?audience=wdp)_
-- scikit-learn [(docs)](https://scikit-learn.org/stable/)
+- Data Refinery [(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/refinery/refining_data.html?audience=wdp)
+- Apache Spark Environments [(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/environments-parent.html?audience=wdp)
 
 
-### Get Started
+**Get Started**
+
 Here we have two options for exploring data, transforming data, training a model, hosting the model as an API web service, and consuming the API. **Part 1A** uses the Automatic Model Building tool in Watson Studio, and allows you to quickly train a supervised Machine Learning model, and evaluate its accuracy without having to write any code, this is an excellent way to prototype.  **Part 1B** does the same as Part1A, you explore data, transform data, train and evaluate a Machine Learning model, and host the model as an API web service before consuming the service, all using Python in a Jupyter Notebook. 
 
 **Choose One**
@@ -119,14 +134,20 @@ This lab begins by introducing you to Deep Learning through a Jupyter notebook e
 - Create and submit Deep Learning experiments in parellel for hyperparameter optimization
 - Compare Deep Learning training runs for accuracy 
 
+**Tools Used**
+- Jupyter Notebooks _[(docs)](https://jupyter-notebook.readthedocs.io/en/stable/)_
+- Watson Machine Learning _[(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-overview.html)_
+- Watson Studio Deep Learning as a Service _[(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml_dlaas.html?audience=wdp)_
+- Keras [(docs)](https://keras.io/)
 
-### Get Started
+**Get Started**
+
 ### [Part 1](https://github.com/justinmccoy/timeseries-rnn-lab-part1) - Train a Recurrent Neural Network on a Jupyter Notebook in Python using Keras
 ### [Part 2](https://github.com/justinmccoy/timeseries-rnn-lab-part2) - Perform Hyperparameter Optimization; train and host a Deep Learning model as a API web service
 
 **Related Links**
--
--
+- [Link 1]()
+- [Link 2]()
 
 
 ## Lab 3
