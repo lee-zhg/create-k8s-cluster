@@ -1,5 +1,5 @@
 # Getting Started with Machine Learning for the Developer
-### _Industralizing Data Science and Machine Learning_
+### Industrializing Data Science and Machine Learning_
 
 Machine Learning, and Data Science have been hot topics for the past 10 years, but what does it mean to the *developer*? 
 - Where does one get started?
