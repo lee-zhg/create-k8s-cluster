@@ -110,12 +110,12 @@ Along the way, you’ll learn about scaling compute and memory on IBM Cloud base
 
 **Get Started**
 
-Here we have two options for exploring data, transforming data, training a model, hosting the model as an API web service, and consuming the API. **Part 1A** uses the Automatic Model Building tool in Watson Studio, and allows you to quickly train a supervised Machine Learning model, and evaluate its accuracy without having to write any code, this is an excellent way to prototype.  **Part 1B** does the same as Part1A, you explore data, transform data, train and evaluate a Machine Learning model, and host the model as an API web service before consuming the service, all using Python in a Jupyter Notebook. 
+Here we have two options for exploring data, transforming data, training a model, hosting the model as an API web service, and consuming the API. **Option 1** uses the Automatic Model Building tool in Watson Studio, and allows you to quickly train a supervised Machine Learning model, and evaluate its accuracy without having to write any code, this is an excellent way to prototype.  **Option 2** does the same as Option 1, you explore data, transform data, train and evaluate a Machine Learning model, and host the model as an API web service before consuming the service, all using Python in a Jupyter Notebook. 
 
 **Choose One**
 
-### [Part 1A - Automatic Model Builder](https://github.com/justinmccoy/lab-watson-automatic-model-builder)
-### [Part 1B - Jupyter Notebooks](https://developer.ibm.com/patterns/create-and-deploy-a-scoring-model-to-predict-heartrate-failure/)
+### [Option 1](https://github.com/justinmccoy/lab-watson-automatic-model-builder) - Watson Automatic Model Builder to train, deploy, and, consume a Machine Learning model
+### [Option 2](https://developer.ibm.com/patterns/create-and-deploy-a-scoring-model-to-predict-heartrate-failure/) - Jupyter Notebook and Python to train, deploy, and, consume a Machine Learning model
 
 
 **Related Links**
@@ -172,8 +172,8 @@ You want to learn how to package a deep learning model, consume it from an appli
 
 
 ### Get Started
-### [Part 1]() - Package and Deploy a Deep Learning Model in a Container on Kubernetes
-### [Part 2]() - Consume the Deep Learning Model with a NodeJS application 
+### [Part 1](https://github.com/justinmccoy/MAX-Image-Segmenter) - Package and Deploy a Deep Learning Model in a Container on Kubernetes
+### [Part 2]() - Consume the Deep Learning Model with a REACT Web Application 
 
 
 
