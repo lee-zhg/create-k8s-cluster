@@ -25,7 +25,7 @@ Over the course of the next several hours you will work through 3 open source ex
 
 ## Requirements
 * [IBM Cloud Account](https://cloud.ibm.com)
-* [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio)
+* [Kubernetes Cluster](#provision-kubernetes-cluster)
 
 ## Links 
 * [Watson Machine Learning Python SDK](https://wml-api-pyclient.mybluemix.net/)
@@ -43,6 +43,26 @@ Overview of the Machine Learning and Deep Learning landscape
 - [Lab 1](#Lab-1) - _Turn raw data into insights; build, deploy, and consume a Machine Learning model_
 - [Lab 2](#Lab-2) - _Training and deploying Deep Learning models to make predictions as an API web service_
 - [Lab 3](#Lab-3) - _Package a Deep learning model into a container, and deploy it to Kubernetes, or run offline_
+
+## Provision Kubernetes Cluster
+In [Lab3](#lab-3) you will be deploying an application to a Kubernetes cluster; this takes upto 20 minutes to provision and requires a promo code applied to your IBM Cloud account enabling you to create a cluster without entering any credit card information.  The promo code allows users to create a Free cluster with 2 CPUs, 4 GB RAM, and 1 Worker Node. 
+
+**1. Request Promo Code**
+[https://developer.ibm.com/callforcode/featurecode](https://developer.ibm.com/callforcode/featurecode)
+
+Confirmation Code: `CFCday19`
+
+From within IBM Cloud, select `Manage` from the top menu bar, then `Account`.  Within the account page select the `Account Settings` option and scroll down to enter your feature code retrieved above.
+
+![Use Feature Code](docs/images/use-feature-code.gif)
+
+
+**2. Provision a new Kubernetes Cluster**
+Kubernetes is an open-source container orchestration platform for deploying and scaling distributed applications. We're going to deploy a API Web Service hosting a Deep Learning model, and a React Web App consuming the API.
+
+From within IBM Cloud select `Catalog` from the top menu bar, then find `Kubernetes` highlighted at the top of the screen, select it and following the prompts to create a new Free Cluster.  
+![Create Kube Cluster](docs/images/create-kube-cluster.gif)
+
 
 ## Lab 1
 ### _Turn raw data into insights; build, deploy, and consume a Machine Learning model_
@@ -127,6 +147,8 @@ You want to learn how to package a deep learning model, consume it from an appli
 ### Get Started
 ### [Part 1]() - Package and Deploy a Deep Learning Model in a Container on Kubernetes
 ### [Part 2]() - Consume the Deep Learning Model with a NodeJS application 
+
+
 
 
 ## Suggested Reading
