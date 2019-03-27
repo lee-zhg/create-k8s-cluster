@@ -15,6 +15,9 @@ Over the course of the next several hours you will work through 3 open source ex
 - Developers that want to have complete code examples to showcase understanding of Machine Learning, and how to integrate insights into applications.
 - Developers that are too busy and need to use and apply best practices around Machine Learning today.
 
+## Contacts
+- [Justin McCoy](mailto:justin.mccoy@us.ibm.com) - IBM Developer
+
 ## Outcomes
 - Identify and describe how Machine Learning is being used in applications today
 - Understand and have example code for training a Supervised Machine Learning Models with SKlearn, Keras, and Tensorflow
@@ -157,28 +160,30 @@ This lab is broken into two parts, **Part 1** focus on training a Recurrent Neur
 
 ## Lab 3
 ### _Package a Deep learning model into a container, and deploy it to Kubernetes, or run offline_
-You want to learn how to package a deep learning model, consume it from an application, run it offline as a API endpoint, or deploy the model to Kubernetes.
+Ever wonder how AI is infused into applications, or how custom built AI can be deployed, and consumed offline on the edge of a network or in the Cloud? The following example showcases just how to accomplish this task. 
+
+We will create and deploy two different applications in Docker containers. The first container will contain a Deep Learning model, wrapped by a Python Flask Web app exposing a REST API to make predictions using the Deep Learning model. The second container will host a REACT web application that utilizes the API hosted by the first container to create a web based photo manipulation tool backed by deep learning. The complete application will not call any external services, and can be run offline on the edges of a network.
 
 
 
-*By the end of these labs you should be able to:*
+**By the end of these labs you should be able to:**
 
 - Find existing Deep Learning and Machine Learning models to solve common problem spaces
 - Deploy packaged Deep Learning models to a Kubernetes Service
 - Wrap a existing Deep Learning or Machine Learning Model as a web API
 - Package a trained Deep Learning or Machine Learning model in a container
 
-- Deploy the trained De
 
+**Get Started**
 
-### Get Started
-### [Part 1](https://github.com/justinmccoy/MAX-Image-Segmenter) - Package and Deploy a Deep Learning Model in a Container on Kubernetes
+This lab is broken down into two parts. **Part 1** focuses on packaging a Deep Learning model wrapped as a web service within a Docker container. This web service can be called by other applications through a REST API to extract insights from data. In this use-case we want to simplify the task of extracting objects from images utilizing _[image segmentation](https://en.wikipedia.org/wiki/Image_segmentation)_.  **Part 2** of the lab, deploys the application in Part 1, and a REACT web applcation that's used to consume the API on Kubernetes.
+
+### [Part 1](https://github.com/justinmccoy/MAX-Image-Segmenter) - Package and Deploy a Deep Learning Model in a Container
 ### [Part 2]() - Consume the Deep Learning Model with a REACT Web Application 
 
 
+**Related Links**
+- [MAX Model Exchange](https://developer.ibm.com/exchanges/models/)
+- [Train a Deep Learning Object Classifier with Keras](https://github.com/IBM/keras-binary-classifier) 
+- [Train and evaluate an audio classifier](https://developer.ibm.com/patterns/train-and-evaluate-an-audio-classifier-using-keras-and-jupyter-notebook/)
 
-
-## Suggested Reading
-- Website
-- Podcast
-- Developer
