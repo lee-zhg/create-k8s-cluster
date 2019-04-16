@@ -1,7 +1,7 @@
 # Getting Started with Machine Learning for the Developer
 ### Industrializing Data Science and Machine Learning_
 
-Machine Learning, and Data Science have been hot topics for the past 10 years, but what does it mean to the *developer*? 
+Machine Learning, and Data Science have been hot topics for the past 10 years, but what does it mean to the *developer*?
 - Where does one get started?
 - How do you transform data into insights?
 - What does a Machine Learning model look like?
@@ -16,42 +16,43 @@ Over the course of the next several hours you will work through 3 open source ex
 - Developers that are too busy and need to use and apply best practices around Machine Learning today.
 
 ## Contacts
-- [Justin McCoy](mailto:justin.mccoy@us.ibm.com) - IBM Developer
+- [David Carew](mailto:carew@us.ibm.com) - IBM Developer Advocate
+- [Derek Teay](mailto:Derek.Teay@ibm.com) - IBM Developer Advocate
+- [Matt Langbehn](mailto:mlangbe@us.ibm.com) - IBM Developer Advocate
+
 
 ## Outcomes
-- Identify and describe how Machine Learning is being used in applications today
-- Understand and have example code for training a Supervised Machine Learning Models with SKlearn, Keras, and Tensorflow
-- Ability to save trained Machine Learning Models; with example code.
-- Understand tools for deploying Machine Learning Models as a Service with an API frontend, through UI, and/or Python SDKs; with example code.
-- Basic understanding of Deep Learning, where it's applied, where to find pretrained models, and how to build and deploy a Deep Learning model; with example code
-- Links to relevant developer resources 
+- Understand the process of deploying  Machine Learning models with continuous monitoring
+- Understand the process  of implementing Hyperparameter optimization of Deep Learning models
+- Understand the process of automatically identifying bias in Machine Learning models
+- Links to relevant developer resources
 
 ## Requirements
 * [IBM Cloud Account](https://cloud.ibm.com)
-* [Kubernetes Cluster](#provision-kubernetes-cluster)
 
-## Links 
+
+## Links
 * [IBM Developer](https://developer.ibm.com)
 * [Watson Studio Overview](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/overview-ws.html?audience=wdp&context=wdp&linkInPage=true)
 * [Watson Machine Learning Python SDK](https://wml-api-pyclient.mybluemix.net/)
 * [Watson Studio Video Learning Center](https://www.youtube.com/playlist?list=PLzpeuWUENMK3u3j_hffhNZX3-Jkht3N6V)
 
-## Estimated Time to Complete 
-**4 Hours**
+## Estimated Time to Complete
+**3-4 Hours**
 
-# Presentation 
+# Presentation
 Overview of the Machine Learning and Deep Learning landscape
 ### [Introduction to Machine Learning and Data Science for the Developer](docs/ml-workshop.pdf)
 
 # Labs
-- [Lab 0](#provision-kubernetes-cluster) - _Provision Kubernetes Cluster_
-- [Lab 1](#Lab-1) - _Turn raw data into insights; build, deploy, and consume a Machine Learning model_
-- [Lab 2](#Lab-2) - _Training and deploying Deep Learning models to make predictions as an API web service_
-- [Lab 3](#Lab-3) - _Package a Deep learning model into a container, and deploy it to Kubernetes, or run offline_
+- [Lab 0](#apply-a-promotional-code) - _Apply a Promotional Code_
+- [Lab 1](#Lab-1) - _Apply continuous learning to a Machine Learning model_
+- [Lab 2](#Lab-2) - _Hyperparameter optimization of Deep Learning models_
+- [Lab 3](#Lab-3) - _Automatic bias detection in Machine Learning models_
 
 
-## Provision Kubernetes Cluster
-In **Lab3** you will be deploying an application to a Kubernetes cluster; this takes upto 20 minutes to provision and requires a promo code applied to your IBM Cloud account enabling you to create a cluster without entering any credit card information.  The promo code allows users to create a Free cluster with 2 CPUs, 4 GB RAM, and 1 Worker Node. 
+## Apply a Promotional Code
+In **Lab 1** you will be using an instance of IBM Db2 Data Warehouse service which  requires a promo code applied to your IBM Cloud account enabling you to create an instance without entering any credit card information.  
 
 **1. Request Promo Code**
 
@@ -64,80 +65,47 @@ After requesting and saving the promo code from above, login to [IBM Cloud](http
 ![Use Feature Code](docs/images/use-feature-code.gif)
 
 
-**2. Provision a new Kubernetes Cluster**
-
-Kubernetes is an open-source container orchestration platform for deploying and scaling distributed applications. We're going to deploy an API Web Service hosting a Deep Learning model, and a React Web App consuming the API.
-
-From within IBM Cloud select `Catalog` from the top menu bar, then find `Kubernetes` highlighted at the top of the screen, select it and following the prompts to create a new Free Cluster.  
-
-![Create Kube Cluster](docs/images/create-kube-cluster.gif)
-
-
-The cluster will take about 15 mintues to provision but we're not going to use it right away. 
-
-After selecting create you will see information for getting started with Kubernetes and a status of _Requested_, this will move to _Deploying_ and eventually _Normal_.
-
-![Kube Cluster Createion Status](docs/images/kube-cluster-status.png)
-
-### Continue onto [Lab 1](#lab-1)
 ----
 
 ## Lab 1
-### _Turn raw data into insights; build, deploy, and consume a Machine Learning model_
+### _Apply continuous learning to a Machine Learning model_
 
 You’re a busy developer, a data scientist or a user with not much coding experience, and want the fastest path delivering data insights to users, but this requires deep expertise in many technology domains. This end-to-end use-case driven lab walks you through the technologies used to:
 
-- Acquire, clean, and explore data
+- Acquire data
 - Build a predictive machine learning model
 - Make predictions
 - Host the model on IBM Cloud for consumption
+- Update and deploy the model as new data becomes available
 - Integrate the model with your web application
 
-Along the way, you’ll learn about scaling compute and memory on IBM Cloud based on training requirements, IBM’s Watson Machine Learning Service for hosting your trained model on IBM’s Cloud, and Watson Studio, a Cloud-based IDE for data science teams; tools that brings together many open-source technologies built for data science and machine learning.
-
-
-**By the end of this lab you should be able to:**
-
-- Visualize and clean data
-- Build a predictive model within a Jupyter Notebook
-- Deploy the model to IBM Watson Machine Learning service
-- Access the Machine Learning models through through APIs
 
 **Tools Used**
-- Jupyter Notebooks _[(docs)](https://jupyter-notebook.readthedocs.io/en/stable/)_
 - Watson Machine Learning _[(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-overview.html)_
 - Watson Studio _[(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/welcome-main.html?audience=wdp)_
-- Data Refinery [(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/refinery/refining_data.html?audience=wdp)
 - Apache Spark Environments [(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/environments-parent.html?audience=wdp)
 
 
 **Get Started**
 
-Here we have two options for exploring data, transforming data, training a model, hosting the model as an API web service, and consuming the API. **Option 1** uses the Automatic Model Building tool in Watson Studio, and allows you to quickly train a supervised Machine Learning model, and evaluate its accuracy without having to write any code, this is an excellent way to prototype.  **Option 2** does the same as Option 1, you explore data, transform data, train and evaluate a Machine Learning model, and host the model as an API web service before consuming the service, all using Python in a Jupyter Notebook. 
-
-**Choose One**
-
-### [Option 1](https://github.com/justinmccoy/lab-watson-automatic-model-builder) - Watson Automatic Model Builder to train, deploy, and, consume a Machine Learning model
-### [Option 2](https://developer.ibm.com/patterns/create-and-deploy-a-scoring-model-to-predict-heartrate-failure/) - Jupyter Notebook and Python to train, deploy, and, consume a Machine Learning model
+Click on the link below to see the instructions for the lab.
 
 
-**Related Links**
-- [Principle Component Analysis Example](https://developer.ibm.com/patterns/deep-dive-into-pca-principal-component-analysis/)
-- [Perform Feature Engineering and Model Scoring on Watson Studio Local](https://developer.ibm.com/patterns/model-mgmt-on-watson-studio-local/)
-- [Build a customer churn predictor](https://developer.ibm.com/patterns/predict-customer-churn-using-watson-studio-and-jupyter-notebooks/)
+### [Apply continuous learning to a  Machine Learning model](https://github.com/ibm-ai-education/continuous-learning-with-watson-ml)
+
 
 ## Lab 2
-### _Training and deploying Deep Learning models to make predictions as an API web service_
-You're familiar with data science and Machine Learning, have built models before, but are trying to understand how to make sense of a large feature space. Deep learning with hyperparameter optimiation is an effective method for identifying and weighting the most important features without the need to manually pick those features.
+### _Hyperparameter optimization of Deep Learning models_
+You're familiar with data science and Machine Learning, have built models before, but are trying to understand how to make sense of a large feature space. Deep learning with hyperparameter optimization is an effective method for speeding up the convergence of the model to the most optimal solution.
 
-This lab begins by introducing you to Deep Learning through a Jupyter notebook environment using the Keras framework. The lab in **Part 2** builds on the Jupyter Notebook enviornment by defining and submitting experiments as Python code for training multiple models in parellel.
+This lab begins by introducing you to Deep Learning through a Jupyter notebook environment using the Keras framework. The lab in **Part 2** builds on the Jupyter Notebook environment by defining and submitting experiments as Python code for training multiple models in parallel.
 
 **By the end of these labs you should be able to:**
 
 - Build a Deep Learning model in a Jupyter Notebook using Keras on timeseries data
 - Deploy and consume the trained Deep Learning model as an API on the Watson Machine Learning Service
-- Create and submit Deep Learning experiments in parellel for hyperparameter optimization
-- Compare Deep Learning training runs for accuracy 
+- Create and submit Deep Learning experiments in parallel for hyperparameter optimization
+- Compare Deep Learning training runs for accuracy
 
 **Tools Used**
 - Jupyter Notebooks _[(docs)](https://jupyter-notebook.readthedocs.io/en/stable/)_
@@ -159,31 +127,19 @@ This lab is broken into two parts, **Part 1** focus on training a Recurrent Neur
 
 
 ## Lab 3
-### _Package a Deep learning model into a container, and deploy it to Kubernetes, or run offline_
-Ever wonder how AI is infused into applications, or how custom built AI can be deployed, and consumed offline on the edge of a network or in the Cloud? The following example showcases just how to accomplish this task. 
+### _Automatic bias detection in Machine Learning models_
+The data science techniques often used in credit risk modeling, such as gradient boosted trees and neural networks, can generate highly accurate risk models, but at a cost. Such "black box" models generate opaque predictions that must somehow become transparent, to ensure regulatory approval such as Article 22 of the General Data Protection Regulation (GDPR), or the federal Fair Credit Reporting Act (FCRA) managed by the Consumer Financial Protection Bureau.
 
-We will create and deploy two different applications in Docker containers. The first container will contain a Deep Learning model, wrapped by a Python Flask Web app exposing a REST API to make predictions using the Deep Learning model. The second container will host a REACT web application that utilizes the API hosted by the first container to create a web based photo manipulation tool backed by deep learning. The complete application will not call any external services, and can be run offline on the edges of a network.
-
-
-
-**By the end of these labs you should be able to:**
-
-- Find existing Deep Learning and Machine Learning models to solve common problem spaces
-- Deploy packaged Deep Learning models to a Kubernetes Service
-- Wrap a existing Deep Learning or Machine Learning Model as a web API
-- Package a trained Deep Learning or Machine Learning model in a container
+This lab will look at monitoring a deployed model's propensity for a favorable outcome ("No Risk") for one group (the Reference Group) over another (the Monitored Group) so a lender can determine if their deployed model in inadvertently introducing unexplainable bias into the  decision making process'
 
 
 **Get Started**
 
-This lab is broken down into two parts. **Part 1** focuses on packaging a Deep Learning model wrapped as a web service within a Docker container. This web service can be called by other applications through a REST API to extract insights from data. In this use-case we want to simplify the task of extracting objects from images utilizing _[image segmentation](https://en.wikipedia.org/wiki/Image_segmentation)_.  **Part 2** of the lab, deploys the application in Part 1, and a REACT web applcation that's used to consume the API on Kubernetes.
+Click on the link below to see the instructions for the lab.
 
-### [Part 1](https://github.com/justinmccoy/MAX-Image-Segmenter) - Package and Deploy a Deep Learning Model in a Container
-### [Part 2](https://github.com/IBM/MAX-Image-Segmenter-Web-App) - Consume the Deep Learning Model with a REACT Web Application 
+### [Automatic bias detection in Machine Learning models](https://cloud.ibm.com/docs/services/ai-openscale?topic=ai-openscale-gettingstarted#gs-setup)
+
 
 
 **Related Links**
-- [MAX Model Exchange](https://developer.ibm.com/exchanges/models/)
-- [Train a Deep Learning Object Classifier with Keras](https://github.com/IBM/keras-binary-classifier) 
-- [Train and evaluate an audio classifier](https://developer.ibm.com/patterns/train-and-evaluate-an-audio-classifier-using-keras-and-jupyter-notebook/)
-
+- [Watson OpenScale](https://cloud.ibm.com/docs/services/ai-openscale?topic=ai-openscale-gettingstarted#gettingstarted)
