@@ -1,10 +1,6 @@
 # Industrializing Data Science and Machine Learning
 
-Machine Learning, and Data Science have been hot topics for the past 10 years, but what does it mean to the *developer*?
-- Where does one get started?
-- How do you transform data into insights?
-- What does a Machine Learning model look like?
-- How do you share the insights of a model with the world?
+### Continuous learning, hyper-parameter optimization and bias detection
 
 ## Objective
 Over the course of the next 3 - 4 hours you will work through 3 lab exercises to bring your practical knowledge of machine learning and its applications up to todays best practices. The following topics will be covered:
