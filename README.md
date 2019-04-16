@@ -1,5 +1,4 @@
-# Getting Started with Machine Learning for the Developer
-### Industrializing Data Science and Machine Learning_
+# Industrializing Data Science and Machine Learning
 
 Machine Learning, and Data Science have been hot topics for the past 10 years, but what does it mean to the *developer*?
 - Where does one get started?
@@ -8,7 +7,11 @@ Machine Learning, and Data Science have been hot topics for the past 10 years, b
 - How do you share the insights of a model with the world?
 
 ## Objective
-Over the course of the next 3 - 4 hours you will work through 3 examples to bring your practical knowledge of machine learning and its applications up to todays best practices.
+Over the course of the next 3 - 4 hours you will work through 3 lab exercises to bring your practical knowledge of machine learning and its applications up to todays best practices. The following topics will be covered:
+
+- Understanding the process of deploying  Machine Learning models with continuous monitoring
+- Understanding the process  of implementing hyper-parameter optimization of Deep Learning models
+- Understanding the process of automatically identifying and analyzing  bias in Machine Learning models
 
 ## Target Audience
 - Developers that are too busy and need to use and apply best practices around Machine Learning today.
@@ -19,12 +22,6 @@ Over the course of the next 3 - 4 hours you will work through 3 examples to brin
 - [Derek Teay](mailto:Derek.Teay@ibm.com) - IBM Developer Advocate
 - [Matt Langbehn](mailto:mlangbe@us.ibm.com) - IBM Developer Advocate
 
-
-## Outcomes
-- Understand the process of deploying  Machine Learning models with continuous monitoring
-- Understand the process  of implementing Hyperparameter optimization of Deep Learning models
-- Understand the process of automatically identifying bias in Machine Learning models
-- Links to relevant developer resources
 
 ## Requirements
 * [IBM Cloud Account](https://cloud.ibm.com)
