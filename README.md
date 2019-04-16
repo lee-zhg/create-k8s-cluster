@@ -8,12 +8,11 @@ Machine Learning, and Data Science have been hot topics for the past 10 years, b
 - How do you share the insights of a model with the world?
 
 ## Objective
-Over the course of the next several hours you will work through 3 open source examples to bring your practical knowlege of machine learning and its applications up to todays best practices.
+Over the course of the next 3 - 4 hours you will work through 3 examples to bring your practical knowledge of machine learning and its applications up to todays best practices.
 
 ## Target Audience
-- Developers interested in Machine Learning with little or no practical experience with the topic
-- Developers that want to have complete code examples to showcase understanding of Machine Learning, and how to integrate insights into applications.
 - Developers that are too busy and need to use and apply best practices around Machine Learning today.
+- Developers that want to have complete code examples to showcase understanding of Machine Learning, and how to integrate insights into applications.
 
 ## Contacts
 - [David Carew](mailto:carew@us.ibm.com) - IBM Developer Advocate
@@ -70,13 +69,13 @@ After requesting and saving the promo code from above, login to [IBM Cloud](http
 ## Lab 1
 ### _Apply continuous learning to a Machine Learning model_
 
-You’re a busy developer, a data scientist or a user with not much coding experience, and want the fastest path delivering data insights to users, but this requires deep expertise in many technology domains. This end-to-end use-case driven lab walks you through the technologies used to:
+You’re a busy developer or  a data scientist and want the fastest path delivering data insights to users, but this requires deep expertise in many technology domains. This end-to-end use-case driven lab walks you through the technologies used to:
 
 - Acquire data
 - Build a predictive machine learning model
 - Make predictions
 - Host the model on IBM Cloud for consumption
-- Update and deploy the model as new data becomes available
+- Automatically update and redeploy the model as needed as new data becomes available
 - Integrate the model with your web application
 
 
@@ -91,7 +90,7 @@ You’re a busy developer, a data scientist or a user with not much coding exper
 Click on the link below to see the instructions for the lab.
 
 
-### [Apply continuous learning to a  Machine Learning model](https://github.com/ibm-ai-education/continuous-learning-with-watson-ml)
+### [Lab 1](https://github.com/ibm-ai-education/continuous-learning-with-watson-ml) - Apply continuous learning to a  Machine Learning model
 
 
 ## Lab 2
@@ -117,8 +116,8 @@ This lab begins by introducing you to Deep Learning through a Jupyter notebook e
 
 This lab is broken into two parts, **Part 1** focus on training a Recurrent Neural Network on Time Series data in a Jupyter Notebook. The dataset used contains only a single feature, but could easily be modified to include hundreds of features or a completely different timeseries dataset. **Part 2** packages up the code seen in Part 1 as a Python application, and configuration file and submits it to Watson's Deep Learning Service to perform hyperparameter optimization, training many versions of the same model with slightly different variations in parallel.
 
-### [Part 1](https://github.com/justinmccoy/timeseries-rnn-lab-part1) - Train a Recurrent Neural Network on a Jupyter Notebook in Python using Keras
-### [Part 2](https://github.com/justinmccoy/timeseries-rnn-lab-part2) - Perform Hyperparameter Optimization; train and host a Deep Learning model as a API web service
+### [Lab 2 - Part 1](https://github.com/justinmccoy/timeseries-rnn-lab-part1) - Train a Recurrent Neural Network on a Jupyter Notebook in Python using Keras
+### [Lab 2 - Part 2](https://github.com/justinmccoy/timeseries-rnn-lab-part2) - Perform Hyperparameter Optimization; train and host a Deep Learning model as a API web service
 
 **Related Links**
 - [AI Research @IBM](https://www.research.ibm.com/artificial-intelligence/)
@@ -130,14 +129,14 @@ This lab is broken into two parts, **Part 1** focus on training a Recurrent Neur
 ### _Automatic bias detection in Machine Learning models_
 The data science techniques often used in credit risk modeling, such as gradient boosted trees and neural networks, can generate highly accurate risk models, but at a cost. Such "black box" models generate opaque predictions that must somehow become transparent, to ensure regulatory approval such as Article 22 of the General Data Protection Regulation (GDPR), or the federal Fair Credit Reporting Act (FCRA) managed by the Consumer Financial Protection Bureau.
 
-This lab will look at monitoring a deployed model's propensity for a favorable outcome ("No Risk") for one group (the Reference Group) over another (the Monitored Group) so a lender can determine if their deployed model in inadvertently introducing unexplainable bias into the  decision making process'
+This lab will look at monitoring a deployed model's propensity for a favorable outcome ("No Risk") for one group (the Reference Group) over another (the Monitored Group) so a lender can determine if their deployed model in inadvertently introducing unexplainable bias into the  decision making process.
 
 
 **Get Started**
 
 Click on the link below to see the instructions for the lab.
 
-### [Automatic bias detection in Machine Learning models](https://cloud.ibm.com/docs/services/ai-openscale?topic=ai-openscale-gettingstarted#gs-setup)
+### [Lab 3](https://cloud.ibm.com/docs/services/ai-openscale?topic=ai-openscale-gettingstarted#gs-setup) - Automatic bias detection in Machine Learning models
 
 
 
