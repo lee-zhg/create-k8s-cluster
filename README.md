@@ -110,7 +110,7 @@ This lab begins by introducing you to Deep Learning through a Jupyter notebook e
 This lab is broken into two parts, **Part 1** focus on training a Recurrent Neural Network on Time Series data in a Jupyter Notebook. The dataset used contains only a single feature, but could easily be modified to include hundreds of features or a completely different timeseries dataset. **Part 2** packages up the code seen in Part 1 as a Python application, and configuration file and submits it to Watson's Deep Learning Service to perform hyperparameter optimization, training many versions of the same model with slightly different variations in parallel.
 
 ### [Lab 2 - Part 1](https://github.com/justinmccoy/timeseries-rnn-lab-part1) - Train a Recurrent Neural Network on a Jupyter Notebook in Python using Keras
-### [Lab 2 - Part 2](https://github.com/justinmccoy/timeseries-rnn-lab-part2) - Perform Hyperparameter Optimization; train and host a Deep Learning model as a API web service
+### [Lab 2 - Part 2](https://github.com/ibm-ai-education/timeseries-rnn-lab-part2) - Perform Hyperparameter Optimization; train and host a Deep Learning model as a API web service
 
 **Related Links**
 - [AI Research @IBM](https://www.research.ibm.com/artificial-intelligence/)
