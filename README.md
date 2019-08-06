@@ -1,137 +1,48 @@
-# Industrializing Data Science and Machine Learning
-
-### Continuous learning, hyper-parameter optimization and bias detection
-
-## Objective
-Over the course of the next 3 - 4 hours you will work through 3 lab exercises to bring your practical knowledge of machine learning and its applications up to todays best practices. The following topics will be covered:
-
-- Understanding the process of deploying  Machine Learning models with continuous monitoring
-- Understanding the process  of implementing hyper-parameter optimization of Deep Learning models
-- Understanding the process of automatically identifying and analyzing  bias in Machine Learning models
-
-## Target Audience
-- Developers that are too busy and need to use and apply best practices around Machine Learning today.
-- Developers that want to have complete code examples to showcase understanding of Machine Learning, and how to integrate insights into applications.
-
-## Contacts
-- [David Carew](mailto:carew@us.ibm.com) - IBM Developer Advocate
-- [Derek Teay](mailto:Derek.Teay@ibm.com) - IBM Developer Advocate
-- [Matt Langbehn](mailto:mlangbe@us.ibm.com) - IBM Developer Advocate
-
-
-## Requirements
-* [IBM Cloud Account](https://cloud.ibm.com)
-
-
-## Links
-* [IBM Developer](https://developer.ibm.com)
-* [Watson Studio Overview](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/overview-ws.html?audience=wdp&context=wdp&linkInPage=true)
-* [Watson Machine Learning Python SDK](https://wml-api-pyclient.mybluemix.net/)
-* [Watson Studio Video Learning Center](https://www.youtube.com/playlist?list=PLzpeuWUENMK3u3j_hffhNZX3-Jkht3N6V)
-
-## Estimated Time to Complete
-**3-4 Hours**
-
-# Presentation
-Overview of the Machine Learning and Deep Learning landscape
-### [Introduction to Machine Learning and Data Science for the Developer](docs/ml-workshop.pdf)
-
-# Labs
-- [Lab 0](#apply-a-promotional-code) - _Apply a Promotional Code_
-- [Lab 1](#Lab-1) - _Apply continuous learning to a Machine Learning model_
-- [Lab 2](#Lab-2) - _Hyperparameter optimization of Deep Learning models_
-- [Lab 3](#Lab-3) - _Automatic bias detection in Machine Learning models_
-
+# Create a Kubernetes Cluster in IBM Cloud
 
 ## Apply a Promotional Code
-In **Lab 1** you will be using an instance of IBM Db2 Data Warehouse service which  requires a promo code applied to your IBM Cloud account enabling you to create an instance without entering any credit card information.  
 
-**1. Request Promo Code**
+You will be using an instance of IBM Kubernetes cluster during the workshop. If you login to IBM Cloud with a free IBM Cloud account, it's required to apply a promotion code to your account. The promotion code will be distributed during the session.  
 
-**Goto:** [https://developer.ibm.com/callforcode/featurecode](https://developer.ibm.com/callforcode/featurecode)
+If your account has privilege to create IBM Kubernetes cluster, you may skip this section.
 
-> Confirmation Code: `CFCday19`
+1. login to [IBM Cloud](https://cloud.ibm.com)
 
-After requesting and saving the promo code from above, login to [IBM Cloud](https://cloud.ibm.com), select `Manage` from the top menu bar, then `Account`.  Within the account page select the `Account Settings` option and scroll down to enter your feature code retrieved above.
+2. Select `Manage` from the top menu bar, then `Account`.  
+
+3. Within the `Account` page, select the `Account Settings` option.
+
+4. Scroll down to locate `Subscription and feature codes` section.
+
+5. Click `Apply code` and enter your promotion code.
 
 ![Use Feature Code](docs/images/use-feature-code.gif)
 
 
-----
+## Create a Kubernetes cluster
 
-## Lab 1
-### _Apply continuous learning to a Machine Learning model_
+> Note: The Kubernetes cluster name must be in the format of `user###-cluster`. `###` will be assigned to each attendee during the session. The rest of lab instructions are provided based on this name format.
 
-You’re a busy developer or  a data scientist and want the fastest path delivering data insights to users, but this requires deep expertise in many technology domains. This end-to-end use-case driven lab walks you through the technologies used to:
+1. Select `[Catalog](https://cloud.ibm.com/catalog)` in IBM Cloud.
 
-- Acquire data
-- Build a predictive machine learning model
-- Make predictions
-- Host the model on IBM Cloud for consumption
-- Automatically update and redeploy the model as needed as new data becomes available
-- Integrate the model with your web application
+2. Search and click `Kubernetes Cluster`.
 
+3. Select `Create`. 
 
-**Tools Used**
-- Watson Machine Learning _[(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-overview.html)_
-- Watson Studio _[(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/welcome-main.html?audience=wdp)_
-- Apache Spark Environments [(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/environments-parent.html?audience=wdp)
+4. Select `Free` and `Kubernetes`.
 
+5. Provide a cluster name in the format of `user###-cluster`.
 
-**Get Started**
+> Note: It's very important to keep the format when you name your cluster. `###` should have provided when the session starts.
 
-Click on the link below to see the instructions for the lab.
+6. Keep the default `Resource Group`.
 
+7. Select `North America` as the `Geography`.
 
-### [Lab 1](https://github.com/ibm-ai-education/continuous-learning-with-watson-ml) - Apply continuous learning to a  Machine Learning model
+8. Select `Dallas` as the `Metro`.
+
+![Use Feature Code](docs/images/create-cluster.png)
+
+9. Select `Create cluster`.
 
 
-## Lab 2
-### _Hyperparameter optimization of Deep Learning models_
-You're familiar with data science and Machine Learning, have built models before, but are trying to understand how to make sense of a large feature space. Deep learning with hyperparameter optimization is an effective method for speeding up the convergence of the model to the most optimal solution.
-
-This lab begins by introducing you to Deep Learning through a Jupyter notebook environment using the Keras framework. The lab in **Part 2** builds on the Jupyter Notebook environment by defining and submitting experiments as Python code for training multiple models in parallel.
-
-**By the end of these labs you should be able to:**
-
-- Build a Deep Learning model in a Jupyter Notebook using Keras on timeseries data
-- Deploy and consume the trained Deep Learning model as an API on the Watson Machine Learning Service
-- Create and submit Deep Learning experiments in parallel for hyperparameter optimization
-- Compare Deep Learning training runs for accuracy
-
-**Tools Used**
-- Jupyter Notebooks _[(docs)](https://jupyter-notebook.readthedocs.io/en/stable/)_
-- Watson Machine Learning _[(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-overview.html)_
-- Watson Studio Deep Learning as a Service _[(docs)](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml_dlaas.html?audience=wdp)_
-- Keras [(docs)](https://keras.io/)
-
-**Get Started**
-
-This lab is broken into two parts, **Part 1** focus on training a Recurrent Neural Network on Time Series data in a Jupyter Notebook. The dataset used contains only a single feature, but could easily be modified to include hundreds of features or a completely different timeseries dataset. **Part 2** packages up the code seen in Part 1 as a Python application, and configuration file and submits it to Watson's Deep Learning Service to perform hyperparameter optimization, training many versions of the same model with slightly different variations in parallel.
-
-### [Lab 2 - Part 1](https://github.com/ibm-ai-education/timeseries-rnn-lab-part1) - Train a Recurrent Neural Network on a Jupyter Notebook in Python using Keras
-### [Lab 2 - Part 2](https://github.com/ibm-ai-education/timeseries-rnn-lab-part2) - Perform Hyperparameter Optimization; train and host a Deep Learning model as a API web service
-
-**Related Links**
-- [AI Research @IBM](https://www.research.ibm.com/artificial-intelligence/)
-- [Monitor Machine Learning Models with OpenScale](https://developer.ibm.com/patterns/monitor-custom-machine-learning-engine-with-ai-openscale/)
-- [Refine your Deep Learning Model](https://developer.ibm.com/articles/image-recognition-challenge-with-tensorflow-and-keras-pt2/)
-
-
-## Lab 3
-### _Automatic bias detection in Machine Learning models_
-The data science techniques often used in credit risk modeling, such as gradient boosted trees and neural networks, can generate highly accurate risk models, but at a cost. Such "black box" models generate opaque predictions that must somehow become transparent, to ensure regulatory approval such as Article 22 of the General Data Protection Regulation (GDPR), or the federal Fair Credit Reporting Act (FCRA) managed by the Consumer Financial Protection Bureau.
-
-This lab will look at monitoring a deployed model's propensity for a favorable outcome ("No Risk") for one group (the Reference Group) over another (the Monitored Group) so a lender can determine if their deployed model in inadvertently introducing unexplainable bias into the  decision making process.
-
-
-**Get Started**
-
-Click on the link below to see the instructions for the lab.
-
-### [Lab 3](https://cloud.ibm.com/docs/services/ai-openscale?topic=ai-openscale-gettingstarted#gs-setup) - Automatic bias detection in Machine Learning models
-
-
-
-**Related Links**
-- [Watson OpenScale](https://cloud.ibm.com/docs/services/ai-openscale?topic=ai-openscale-gettingstarted#gettingstarted)
