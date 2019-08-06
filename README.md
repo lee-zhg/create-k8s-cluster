@@ -23,13 +23,13 @@ If your account has privilege to create IBM Kubernetes cluster, you may skip thi
 
 > Note: The Kubernetes cluster name must be in the format of `user###-cluster`. `###` will be assigned to each attendee during the session. The rest of lab instructions are provided based on this name format.
 
-1. Select `[Catalog](https://cloud.ibm.com/catalog)` in IBM Cloud.
+1. Select [Catalog](https://cloud.ibm.com/catalog) in IBM Cloud.
 
-2. Search and click `Kubernetes Cluster`.
+2. Search and select `Kubernetes Cluster`.
 
 3. Select `Create`. 
 
-4. Select `Free` and `Kubernetes`.
+4. Select `Free` and `Kubernetes` option.
 
 5. Provide a cluster name in the format of `user###-cluster`.
 
