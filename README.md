@@ -25,24 +25,22 @@ If your account has privilege to create IBM Kubernetes cluster, you may skip thi
 
 1. Select [Catalog](https://cloud.ibm.com/catalog) in IBM Cloud.
 
-2. Search and select `Kubernetes Cluster`.
+2. Select `Containers` in the left pane.
 
-3. Select `Create`. 
+2. Select `Kubernetes Service`.
 
-4. Select `Free` and `Kubernetes` option.
+4. Select `Create`. 
 
-5. Provide a cluster name in the format of `user###-cluster`.
+5. Select `Free` and `Kubernetes` option.
+
+6. Provide a cluster name in the format of `user###-cluster`.
 
 > Note: It's very important to keep the format when you name your cluster. `###` should have provided when the session starts.
 
-6. Keep the default `Resource Group`.
-
-7. Select `North America` as the `Geography`.
-
-8. Select `Dallas` as the `Metro`.
+7. Keep the default `Resource Group`.
 
 ![Use Feature Code](docs/images/create-cluster.png)
 
-9. Select `Create cluster`.
+8. Select `Create cluster`.
 
 
